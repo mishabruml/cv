@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.21)  8 AUG 2018 01:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.21)  12 SEP 2018 00:41
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -62,49 +62,54 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 59.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 58.
 
 (/usr/local/texlive/2014basic/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
  [1
 
 {/usr/local/texlive/2014basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 104--108
+Underfull \hbox (badness 10000) in paragraph at lines 109--113
 
  []
 
 
-Overfull \hbox (3.201pt too wide) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 109--113
+
+ []
+
+
+Overfull \hbox (3.201pt too wide) in paragraph at lines 120--121
 []\OT1/cmr/m/n/10 Research con-ducted into fluid me-chan-ics, tran-sients, petr
 o-chem-i-cal/hydrocarbon
  []
 
 
-Overfull \hbox (13.70102pt too wide) in paragraph at lines 122--123
+Overfull \hbox (13.70102pt too wide) in paragraph at lines 128--129
 []\OT1/cmr/m/n/10 Experience work-ing in an in-dus-trial ``sim-u-lated off-shor
 e en-vi-ron-ment'' re-search/test
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--131
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--139
+Underfull \hbox (badness 10000) in paragraph at lines 142--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--149
+Underfull \hbox (badness 10000) in paragraph at lines 153--155
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
 
  []
 
@@ -116,13 +121,13 @@ Here is how much of TeX's memory you used:
  3676 multiletter control sequences out of 15000+600000
  4553 words of font info for 17 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 29i,5n,21p,496b,183s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,4n,21p,496b,185s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 bx10.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr10.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb>
-Output written on "Misha Bruml CV.pdf" (3 pages, 66328 bytes).
+Output written on "Misha Bruml CV.pdf" (3 pages, 66335 bytes).
 PDF statistics:
  30 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
