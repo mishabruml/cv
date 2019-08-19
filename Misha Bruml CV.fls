@@ -10,18 +10,45 @@ INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/base/size10.clo
-INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/psnfss/helvet.sty
-INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/psnfss/helvet.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/psnfss/helvet.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/psnfss/helvet.sty
 INPUT Misha Bruml CV.aux
 INPUT Misha Bruml CV.aux
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT /usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+OUTPUT Misha Bruml CV.pdf
 INPUT /usr/local/texlive/2014basic/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2014basic/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2014basic/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2014basic/texmf-dist/tex/latex/base/omscmr.fd
-OUTPUT Misha Bruml CV.pdf
 INPUT /usr/local/texlive/2014basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
