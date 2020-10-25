@@ -20,12 +20,11 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[margin, line, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+\documentclass[overlap, line, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
 
-\usepackage{helvet} % Default font is the helvetica postscript font
-%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
-
-\setlength{\textwidth}{5.1in} % Text width of the document
+\usepackage{helvet}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true}
 
 \begin{document}
 
@@ -33,16 +32,17 @@
 %	NAME AND ADDRESS SECTION
 %----------------------------------------------------------------------------------------
 
-\moveleft.5\hoffset\centerline{\large\bf Misha Bruml CV} % Your name at the top
+\moveleft.5\hoffset\centerline{\large\bf Misha Bruml} % Your name at the top
+\moveleft.5\hoffset\centerline{\bf Fullstack JavaScript/TS software engineer}
 
  
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
  
 \moveleft.5\hoffset\centerline{Bristol, UK}
-\moveleft.5\hoffset\centerline{mishabruml@gmail.com}
+\moveleft.5\hoffset\centerline{mishabruml at gmail dot com}
 \moveleft.5\hoffset\centerline{(+44) 07453 061 823}
-\moveleft.5\hoffset\centerline{linkedin.com/in/mishabruml}
-\moveleft.5\hoffset\centerline{github.com/mishabruml}
+\moveleft.5\hoffset\centerline{\href{https://www.linkedin.com/in/mishabruml}{linkedin.com/in/mishabruml}}
+\moveleft.5\hoffset\centerline{\href{https://www.github.com/mishabruml}{github.com/mishabruml}}
 
 
 %----------------------------------------------------------------------------------------
@@ -51,121 +51,91 @@
  
 \section{SKILLS}
 
-
-
-\textbf{Computing}  
-\begin{itemize} 
-\item Proficient using Windows, Linux, Mac OS
-\item University modules: scientific computing in C/C++, Python, Matlab, Bash scripting, LaTeX.
-\item Web and application UI design in JavaScript, HTML5, CSS, React.Js
-
-\item Professional experience writing desktop engineering software tools in JavaScript, Node.js, Electron, Octave (Matlab)
-
-\item Experienced in software engineering practices; source and version control (Git, semver), design patterns (MVC), Agile, specification and documentation
-
-\item Self-taught C\#, Microsoft Visual Studio by Rob Miles' ``C\# Yellow Book'' and personal programming projects
-
-\item Participate in online programming/algorithm writing challenges such as Codewars, Hackerrank
+\textbf{Programming and software}  
+\begin{itemize} \itemsep -1pt % Reduce space between items
+\item Backend/serverside {\bf Node} applications/APIs/services with {\bf JavaScript/Typescript}
+\item Services and infrastructure with {\bf AWS}, {\bf Serverless/Cloudformation/CDK}
+\item Building frontend web applications with {\bf React}
+\item Unit/component/integration testing with {\bf Jest, AVA, Mocha, Cucumber} 
+\item Building CI/CD pipelines with {\bf CircleCI, GitHub Actions}
+\item Containerisation with {\bf Docker}
+\item Designing architectural solutions to complex business problems
+\item Writing specifications and documentation; {\bf Swagger}
+\item Writing desktop engineering software tools {\bf Electron, Octave, Matlab}
+\item Self-taught {\bf C\#} by Rob Miles ``C\# Yellow Book'' and personal projects
+\item University modules: {\bf C/C++, Python, Matlab, Bash, LaTeX}
 \end{itemize}
 
-
-
-\textbf{Academic}  
-\begin{itemize}
-\item Strong numerical, mathematical and analytical skills, problem solving ability 
-
-\item Data, statistics, error and uncertainty analysis techniques
-
-\item Technical report writing. University dissertation research project received a high first Classification. Industrial literary research and technical software documentation
-
-\item Group work projects; teamwork, communication, presentations, and effective meetings
-
-\item Elective modules in ethics, and the philosophy of physics have given me a broader understanding, and showed that my written skills are not limited to the technical report style.
+\textbf{Other skills and personal}
+\begin{itemize} \itemsep -1pt % Reduce space between items
+\item Working in a wide variety of environments and teams has taught me the importance of teamwork and people skills, and I consider myself a good communicator.
+\item Management skills; have managed a software small team
+\item Good knowledge of Agile practices
+\item Able to demo/present software/sprint work effectively
+\item Studying for a degree taught me how to organise my own workload, research effectively, and multi-task. 
+\item Passionate about the environment; I want to engineer for a better future
 \end{itemize}
 
-
-
-\textbf{Research and Apparatus} 
-\begin{itemize}
-\item Thin film sputter deposition, sample preparation, VSM/SQUID magnetometer, high vacuum systems, SEM/TEM, crystallography, spectroscopy
-\end{itemize}
-
-\textbf{Other skills and personal:}
-Working in several environments with the public has taught me the importance of  people skills, and I consider myself a good communicator. Studying for my degree taught me how to organise my own workload, and multi-task, whilst working in a busy doctors surgery, pubs and kitchens through my youth has given me the ability to work effectively in a team. Working as an outdoor instructor, and as a sailing coach shows that I can also be a strong leader, and am responsible.\
-
-During my free time I enjoy the outdoors, especially mountaineering and rock climbing. I have been a member of the University Mountaineering Club while at Leeds and also in Glasgow. It is my passion for rock climbing that led me to seek work in the mountains of Spain (El Chorro, Andalusia) for 8 months over the winter 2016/2017.
+During my free time I enjoy the outdoors, especially mountaineering and rock climbing. I have been a member of the University Mountaineering Club while at Leeds and also in Glasgow where I spent plenty of time in the hills and crags of the UK.
+For 8 months over the winter 2016/2017 I worked in a climbers' hostel in the mountains of Spain (El Chorro, Andalusia). I also enjoy cycle touring; I completed a two-week trip in America after university, and in December 2019 my partner and I toured for a month in southern India on a tandem..!
 
 \section{EDUCATION}
 
-Postgraduate Diploma in Advanced Materials (Physics)\\
-University of Glasgow 2014-2015 \
+Postgraduate Diploma, Advanced Materials (Physics) University of Glasgow 2014-2015\\
+BSc, Physics, Graduated with 2.1 University of Leeds 2011-2014
 
-BSc, Physics \\
-University of Leeds 2011-2014 \\
-Graduated with (2.1) 
+\pagebreak
 
 \section{EMPLOYMENT HISTORY}
 
-\textbf{Graduate Engineer (Software)} \\
-Paradigm Flow Services, Aberdeen \hfill October 2017 - present\\\\
-Referee: Hugh Mackenzie, Technical Director \\
-hugh.mackenzie@paradigmflow.com 01330 700801\\
-
+\textbf{Senior Software Engineer}\\
+Ecotricity, Bristol, Sept 2019 - Nov 2020 (1 year 2mo) \\
+Reference: Chris Hawes, Team Lead. Email: chris at shh dot io\\\\
+\begin{itemize} \itemsep -1pt
+\item Tariffs service and \href{https://join.ecotricity.co.uk/for-your-home/quote-and-switch}{quote API}
+\begin{itemize} \itemsep -1pt
+\item Built quoting API with Node/Lambda/Serverless, DynamoDB persistence layer
+\item Tariffs and other industry information required for calculation regularly collected from various sources via scheduled Lambdas and a Fargate ECS task to process a large file from S3.
+\item Kinesis CloudEvents for inter-service messaging and integrating with platform
+\item Learnt some functional programming techniques, property testing.
+\item Worked closely with QA on this service to build an automated API smoke test suite with Postman/Newman.
+\end{itemize}
+\item Joined the SMART team, providing SMETS2 (2nd generation Smart Meter) capability/integration for Ecotricity. While on this team I helped build; 
 \begin{itemize}
+\item A suite of services for integrating with the government's XML-based service \href{https://www.smartdcc.co.uk/}{DCC} 
+\item Secure DCC proxy (nginx) built with AWS CDK to provide mutual authentication and receive responses
+\item DCC Adaptor service (TS, Serverless/Cloudformation, DynamoDB, Kinesis/SQS/SNS/Eventbridge) to process responses and safely expose the DCC API to wider Ecotricity platform
+\item Various other services for processing meter readings and providing a smooth integration with the rest of the Ecotricity platform
+\item Daily meter reads now available for SMETS2 customers
+\end{itemize}
+\item Gave stakeholder demos every 2 weeks, demoing the software live and presenting prepared slides
+\item Attended stakeholder sessions for requirements/refinement Q\&A
+\item Attended \href{https://cardiff.serverlessdays.io/}{Serverless Days Cardiff} representing Ecotricity
+\end{itemize}
 
-\item Wrote full stack MVC desktop software to assist analysis of hydraulic transients
 
-\item Wrote advanced Octave program to implement fatigue analysis algorithm for asset integrity/lifespan project. Batch data processing and producing graphics
+\textbf{CTO}\\
+Upugo, Bristol Oct 2018 - Sept 2019 (11 mo)\\
+Reference: Luke Sartain, email: luke at upugo dot com
 
-\item Research conducted into fluid mechanics, transients, petrochemical/hydrocarbon modelling; full technical report produced
-
-\item Involved in an application for DNV certification of a product. Wrote a technical paper explaining the maths/theory (hydraulics, flow) behind the product
-
-\item Conception and assisted in design of a new instrument (acoustic velocity cell) to assist operations. Unfortunately lack of funding currently put this on hold
-
-\item Designed and conducted several internal trials/experiments, mainly verifying design criteria of high pressure hoses and connectors 
-
-\item Experience working in an industrial ``simulated offshore environment'' research/test yard. Full PPE and strict safety culture 
-
-\item Assisted in set-up and running of industrial scale pumps, high pressure equipment, testing apparatus, use of hand and power tools
+\begin{itemize} \itemsep -1pt % Reduce space between items
+\item Built a web platform (Node/JS, AWS Lambda/EB/SQS/Cognito, mongodb) for automated SEO website audits
+\item React frontend with web store (Stripe integration) to purchase SEO tasks
+\item Hired and managed a small team of developers to deliver features 
 
 \end{itemize}
 
-\textbf{Sous chef \& hospitality team} \\
-The Olive Branch\\
-Climber's guesthouse and campsite, El Chorro, Spain \hfill October 2016 - May 2017\\
-\begin{itemize} \itemsep -2pt % Reduce space between items
-\item Sous-chef, breakfast chef, and waiting staff for dinner service 
-\item Kitchen Porter, cleaning and campsite maintenance
+\textbf{Graduate Engineer (Software)}\\
+Paradigm Flow Services, Oct 2017 - Sept 2018 (11 mo)\\
+Reference: Hugh Mackenzie, email: hugh.mackenzie at paradigmflow dot com
+
+\begin{itemize} \itemsep -1pt % Reduce space between items
+\item Built desktop engineering analysis software
+\item Conducted technical research into fluids, transients, hydrocarbon modelling
+\item Wrote technical reports and papers
+\item Assisted in design of a new instrument (acoustic velocity cell) for fluid analysis
+\item Worked in ``simulated offshore environment'' research/test yard
 \end{itemize}
-
-\textbf{Medical Administrator} \\
-Kessington Medical Centre (NHS), Glasgow \hfill December 2015 - September 2016\\
-Brockwell Park Surgery (NHS), London \hfill Summers of 2013 \& 2014 \\
-\begin{itemize} \itemsep -2pt % Reduce space between items
-\item Front-desk receptionist; dealing with patients face to face and over the phone
-\item Administrative tasks, ingoing and outgoing verbal and written communication
-\item Dealing with sensitive clinical information
-\item Completed training in clinical coding (READ) and begun coding for GPs
-\item IT skills and initiative recognised, invited to work on a several month project with an external coordinator to implement a new NHS scheme
-\end{itemize}
- 
-\textbf{Bar staff and site staff} \\
-Weddings in the Woods \hfill Summers of 2012 \& 2013 \\
-\begin{itemize} 
-\item Managed a busy bar at a unique wedding reception venue
-\item Site staff for general set-up and running of the wedding reception including waiting, coordinating with caterers and other companies
-\item Remained on-site as ``on call" overnight staff to supervise guests staying in the cabins    
-\end{itemize} 
-
-\textbf{Dinghy Instructor} \\
-IOCA UK \hfill Summers of 2009-2011 \\
-\begin{itemize} 
-\item Qualified as a RYA Dinghy Instructor, Powerboat Level 2 Driver, First Aid certified
-\item Coached groups of young children for week-long international sailing competition 
-\item Responsible for the learning and safety of the children throughout the week
-\end{itemize} 
-
 
 \end{resume}
 \end{document}
